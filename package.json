@@ -1,9 +1,8 @@
 {
   "name": "mf-bot-webhook",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "my.js",
   "type": "module",
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+  "dependencies": { "express": "^4.19.2" },
+  "scripts": { "start": "node my.js" }
 }
